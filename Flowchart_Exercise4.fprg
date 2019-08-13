@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Administrator"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2562-08-14 02:29:36 AM"/>
+        <attribute name="created" value="QWRtaW5pc3RyYXRvcjtUS0RQUDdQU0Y4MEUyOFk7MjU2Mi0wOC0wMzswODowMDo1MCBQTTszNzAz"/>
+        <attribute name="edited" value="QWRtaW5pc3RyYXRvcjtUS0RQUDdQU0Y4MEUyOFk7MjU2Mi0wOC0xNDswMjoyOTozNiBBTTsyOzM4MDg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="f" type="String" array="False" size=""/>
+            <assign variable="f" expression="&quot;Foundation English:&quot;"/>
+            <declare name="FE" type="Real" array="False" size=""/>
+            <assign variable="FE" expression="80"/>
+            <declare name="g" type="String" array="False" size=""/>
+            <assign variable="g" expression="&quot;General Business:&quot;"/>
+            <declare name="GB" type="Real" array="False" size=""/>
+            <assign variable="GB" expression="70"/>
+            <declare name="i" type="String" array="False" size=""/>
+            <assign variable="i" expression="&quot;Introduction to Computer Systems:&quot;"/>
+            <declare name="ICS" type="Real" array="False" size=""/>
+            <assign variable="ICS" expression="75"/>
+            <declare name="C" type="String" array="False" size=""/>
+            <assign variable="C" expression="&quot;Computer Programming:&quot;"/>
+            <declare name="CR" type="Real" array="False" size=""/>
+            <assign variable="CR" expression="60.5"/>
+            <output expression="&quot;---Your Score---&quot;" newline="True"/>
+            <output expression="f&amp;FE" newline="True"/>
+            <output expression="g&amp;GB" newline="True"/>
+            <output expression="i&amp;ICS" newline="True"/>
+            <output expression="c&amp;CR" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
